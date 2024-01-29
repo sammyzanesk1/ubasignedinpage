@@ -1,0 +1,189 @@
+.box--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-top: 12px;
+  background-color: white;
+}
+
+.box {
+  width: 70%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4%;
+}
+
+.boxA--container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.boxB--container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.update {
+  display: flex;
+  flex-direction: row;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.balance--update {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.account--number {
+  font-size: larger;
+  margin-left: 34px;
+  letter-spacing: 0.1rem;
+}
+.acc--no {
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  color: #463f3a;
+  font-family: Cambria;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 28px;
+  padding-left: 38px;
+  font-size: small;
+}
+
+.balance--icon {
+  margin-left: 24px;
+  padding-left: 24px;
+}
+
+.account--balance {
+  margin-left: 24px;
+  padding-left: 24px;
+}
+
+.service--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.service--box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10px;
+}
+
+.send--text,
+.lifestyle--text,
+.history--text,
+.pay--text {
+  font-size: small;
+  justify-content: center;
+  margin-left: 6px;
+  font-family: Cambria;
+  font-weight: bold;
+}
+
+.loan--jpeg {
+  width: 30%;
+  height: 60%;
+  border-radius: 4%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.boxC--container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 10px;
+}
+
+.send--icon,
+.history--icon {
+  width: 80%;
+  height: 70%;
+  padding: 4px 10px 4px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+  border-radius: 5%;
+}
+
+.paybills--icon {
+  padding: 4px 10px 4px 10px;
+  width: 80%;
+  height: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: -16px;
+  border-radius: 5%;
+}
+
+.lifestyle--icon {
+  padding: 4px 10px 4px 10px;
+  width: 80%;
+  height: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: -16px;
+  border-radius: 5%;
+}
+
+.header--logo {
+  width: 40px;
+}
+
+.header--text {
+  font-weight: bold;
+  font-family: Cambria;
+  margin-left: 50px;
+}
+
+.header--notification {
+  margin-left: 50px;
+  padding-left: 40px;
+}
+
+.header--logo {
+  margin-right: 50px;
+}
+
+.header--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url();
+}
